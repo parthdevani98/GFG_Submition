@@ -1,5 +1,3 @@
-#User function Template for python3
-
 class Solution:
     def prime_Sum(self, n):
         # Create a boolean list to mark numbers as prime or not
@@ -20,10 +18,8 @@ class Solution:
 
     
         
-        
-#{ 
- # Driver Code Starts
-#Initial Template for Python 3
+
+
 
 if __name__ == '__main__':
 	T=int(input())
@@ -32,4 +28,3 @@ if __name__ == '__main__':
 		ob = Solution()
 		ans = ob.prime_Sum(n)
 		print(ans)
-# } Driver Code Ends
